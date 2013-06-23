@@ -1,0 +1,62 @@
+a, label, input, li, p, span, h1, h2, h3, h4, h5, h6,td, th,div,button {
+    font-family: 'Open Sans', sans-serif !important;
+    color: #323232;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 1em;
+}
+
+h1 {
+    font-size: 58px;
+    margin-bottom: 58px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 22px;
+    display: inline-block;
+}
+h2 span{
+    font-size: 22px;
+}
+h3 {
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+h4 {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+h5, h5 span { /* .title-small = h5 */
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+h6 {
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+label{
+   font-size: 14px;
+}
+a, p, span, li, input, th, td {
+    font-size: 12px;
+}
+
+.title-small,.text-bold,.title-small-edge, th {
+    font-weight: 700;
+}
+
+p{
+    line-height: 1.7em;
+}
+
+.text-bold{
+    font-weight: 700;   
+}
+.underline{
+    text-decoration: underline;
+}

@@ -1,0 +1,103 @@
+/* 
+	12 COLUMN - RESPONSIVE GRID SYSTEM
+	DEVELOPED BY DENIS LEBLANC
+	URL - http://responsive.gs
+	VERSION - 2.0
+	LICENSED UNDER GPL & MIT
+*/
+
+
+/* 	SET ALL ELEMENTS BOX-SIZING TO BORDER-BOX
+	If you need support for IE7 and lower use polyfill: https://github.com/Schepp/box-sizing-polyfill */
+* { 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+}
+/* -----------------------------------------------------
+Container
+----------------------------------------------------- */
+.container { 
+	margin: 0 auto;
+	width: 1000px;
+}
+/* -----------------------------------------------------
+Self clearing floats - clearfix method
+----------------------------------------------------- */
+.row:after, .col:after, .clr:after, .group:after { 
+	content: ""; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden; 
+}
+
+/* -----------------------------------------------------
+Row
+----------------------------------------------------- */
+.row { }
+/* -----------------------------------------------------
+Col
+----------------------------------------------------- */					  
+.col { 
+	display: block;
+	float:left;
+	width: 100%;
+	margin-bottom: 18px;
+}
+.row-big-col .col{
+	margin-bottom: 50px;
+}
+.row-no-margin .col{
+	margin-bottom: 0 !important;
+}
+@media ( min-width : 768px ) {
+	.col {
+		margin-left: 5%;
+		position: relative;
+	}
+}
+.col:first-child { 
+	margin-left: 0; 
+}
+/* -----------------------------------------------------
+Span
+----------------------------------------------------- */
+@media ( min-width : 768px ) {
+	.span_1 { 
+		width: 3.75%; 
+	}
+	.span_2 { 
+		width: 12.5%; 
+	}
+	.span_3 { 
+		width: 21.25%; 
+	}
+	.span_4 { 
+		width: 30%; 
+	}
+	.span_5 { 
+		width: 38.75%; 
+	}
+	.span_6 { 
+		width: 47.5%; 
+	}
+	.span_7 { 
+		width: 56.25%; 
+	}
+	.span_8 { 
+		width: 65%; 
+	}
+	.span_9 { 
+		width: 73.75%; 
+	}
+	.span_10 { 
+		width: 82.5%; 
+	}
+	.span_11 { 
+		width: 91.25%; 
+	}
+	.span_12 { 
+		width: 100%; 
+	}
+}

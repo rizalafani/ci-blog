@@ -1,0 +1,89 @@
+/* -----------------------------------------------------
+Boxmodel elements
+----------------------------------------------------- */
+.inline-block {
+    display: inline-block;
+}
+
+/* -----------------------------------------------------
+Float
+----------------------------------------------------- */
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
+}
+/* -----------------------------------------------------
+List
+----------------------------------------------------- */
+.inline-ul{
+    margin-bottom: 16px;
+    display: block;
+}
+
+.inline-ul li{
+    display: inline-block;
+    margin-right: 8px;
+}
+.inline-ul-nm li{
+    display: inline-block;  
+}
+.ul-hover-a a:hover{
+    color: #89bf42;
+}
+/* -----------------------------------------------------
+Margin
+----------------------------------------------------- */
+.no-margin {
+    margin: 0 !important;
+}
+.no-margin-col .col {
+    margin-bottom: 0 !important;
+}
+.no-margin-col-left .col {
+    margin-left: 0 !important;
+}
+.margin{
+    margin: 16px !important;
+}
+.img-margin{
+    margin: 0 16px 16px 0;
+}
+.margin-bottom {
+    margin-bottom: 16px !important;
+}
+/* -----------------------------------------------------
+Padding
+----------------------------------------------------- */
+.no-padding,.no-padding li{
+    padding: 0;
+}
+.padding{
+    padding: 8px;
+}
+.medium-padding{
+    padding: 16px;
+}
+.large-padding{
+    padding: 32px;
+}
+/* -----------------------------------------------------
+Full width
+----------------------------------------------------- */
+.full-width {
+    min-width: 100%;
+}
+/* -----------------------------------------------------
+Text align
+----------------------------------------------------- */
+.text-align-center{
+	text-align: center;
+}
+/* -----------------------------------------------------
+Center
+----------------------------------------------------- */
+.center{
+    margin: 0 auto;
+}

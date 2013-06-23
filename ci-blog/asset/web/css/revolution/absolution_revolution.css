@@ -1,0 +1,37 @@
+.caption.rev-green{
+			position: absolute;
+			color: #ffffff;
+			text-shadow: none;
+			font-weight: 800;
+			font-size: 32px;
+			line-height: 20px;
+			font-family: 'Open Sans', sans;
+			padding: 10px 10px;
+			padding-top: 6px;
+			margin: 0px;
+			border-width: 0px;
+			border-style: none;
+			border-radius: 1.5px;
+			background-color:#89bf42;
+			letter-spacing: 0px;
+			opacity: 0.98 !important;
+}
+
+.caption.rev-green2{
+			position: absolute;
+			color: #ffffff;
+			text-shadow: none;
+			font-weight: 800;
+			font-size: 22px;
+			line-height: 20px;
+			font-family: 'Open Sans', sans;
+			padding: 10px 10px;
+			padding-top: 6px;
+			margin: 0px;
+			border-width: 0px;
+			border-style: none;
+			border-radius: 1.5px;
+			background-color:#89bf42;
+			letter-spacing: 0px;
+			opacity: 0.98 !important;
+}

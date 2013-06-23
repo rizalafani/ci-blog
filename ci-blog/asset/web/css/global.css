@@ -1,0 +1,260 @@
+/* -----------------------------------------------------
+Colors
+----------------------------------------------------- */
+.light-green{
+    background-color: #9fca66;
+}
+.green{
+	background-color: #89bf42;
+}
+.light-gray{
+	background-color: #f2f2f2;
+}
+.very-light-gray{
+	background-color: #f7f6f5;
+}
+.dark-gray{
+	background-color: #323232;
+}
+.gray{
+	background-color: #989898;
+}
+.white{
+	background-color: #ffffff;
+}
+.eleven-gray{
+    background-color: #4e4e4e,
+}
+.medium-gray{
+    background-color: #f8f8f8;    
+}
+.border-gray{
+    background-color: #d5d4d4;
+}
+.mooli{
+    background-color: #808080;
+}
+.foka{
+    background-color: #cecece;
+}
+/************** Text colors **************/
+.light-green-text{
+    color: #9fca66;
+}
+.green-text{
+    color: #89bf42;
+}
+.light-gray-text{
+    color: #f2f2f2;
+}
+.very-light-gray-text{
+    color: #f7f6f5;
+}
+.dark-gray-text{
+    color: #323232;
+}
+.gray-text{
+    color: #989898;
+}
+.white-text{
+    color: #ffffff;
+}
+.eleven-gray-text{
+    color: #4e4e4e,
+}
+.medium-gray-text{
+     color: #f8f8f8;    
+}
+.mooli-text{
+    color: #808080;
+}
+.nova-text{
+    color: #e5e6e4;
+}
+.tif-text{
+    color: #979797;
+}
+.moon-gray-text{
+    color: #919191;
+}
+.text-center{
+    text-align: center;    
+}
+/* -----------------------------------------------------
+Titles
+----------------------------------------------------- */
+/************** Title Small **************/
+.title-small {
+    background: url('images/small_content_divider.png') 0 50%;
+    background-repeat: repeat-x;    
+}
+.title-small h5{
+	margin-bottom: 0;
+    padding-right: 10px;
+	background-color: #ffffff;
+	float: left;
+	display: table;
+}
+
+.footer-container .title-small h5{
+    margin-bottom: 0;
+    padding-right: 10px;
+    background-color: #f2f2f2;
+    float: left;
+    display: table;
+}
+/************** Title Medium **************/
+.title-medium {
+	text-align: center;
+    background: url('images/small_content_divider.png') 0 50%;
+    background-repeat: repeat-x;
+}
+.title-medium h3{
+    padding: 0 8px;
+	margin-bottom: 0;
+	background-color: #ffffff;
+    display: inline-block;
+    font-weight: 600;
+}
+/************** Title Large **************/
+.title-large{
+    margin-bottom: 65px;
+    position: relative;
+} 
+.title-large .title-large-inner{
+    background: url('images/small_content_title_bg.png');
+    padding: 32px 0 ;
+    border-bottom: 1px #cccccc solid;
+}
+.title-large .title-large-inner:after{
+    background: url('images/small_content_title_circle.png');
+    width: 15px;
+    height: 15px;
+    content: " ";
+    position: absolute;
+    left: 50%;
+    bottom: -7px;
+    z-index: 1001;
+}
+.title-large h2{
+    margin-bottom: 0;
+}
+  
+/************** All Title **************/
+.title-small{
+    margin-bottom: 16px;   
+}
+.title-medium{
+	margin-bottom: 25px;
+}
+/* -----------------------------------------------------
+Dividers
+----------------------------------------------------- */
+.divider-small{
+    border-top: 1px #e5e5e5 solid;
+    color: #3a3a3a;
+    margin-bottom: 8px;
+}
+.divider-medium{
+    border-top: 1px #e5e5e5 solid;
+    color: #3a3a3a;
+    margin-bottom: 1px;
+}
+.divider-large{
+    height: 0;
+    border-bottom: 1px #cecece solid;
+    position: relative;
+    margin: 50px 0 ;
+}
+.divider-large.small-corr{
+    margin: 12px 0;    
+}
+.divider-large:after{
+    background: url('images/small_content_title_circle.png');
+    width: 15px;
+    height: 15px;
+    content: " ";
+    position: absolute;
+    right: 50%;
+    margin-right: -7px;
+    bottom: -8px;
+    z-index: 1001;
+    display: block;
+}
+/* -----------------------------------------------------
+Links
+----------------------------------------------------- */
+a{
+	text-decoration: none;
+}
+/************** Green Hover **************/
+.green-hover{
+	color: #ffffff;
+	transition: color 400ms;
+    -moz-transition: color 400ms;
+    -webkit-transition: color 400ms;
+    -o-transition: color 400ms;
+}
+.green-hover:hover{
+	color: #323232;
+}
+/************** Content Green Hover **************/
+.content-green-hover{
+	transition: color 400ms;
+    -moz-transition: color 400ms;
+    -webkit-transition: color 400ms;
+    -o-transition: color 400ms;
+}
+.content-green-hover:hover{
+	color: #89bf42;
+}
+/* -----------------------------------------------------
+Global sizes
+----------------------------------------------------- */
+.portfolio-element{
+  width: 250px;
+  min-height: 369px;
+  overflow: visible;
+}
+.portfolio-element-widget{
+  width: 300px;
+  min-height: 372px;
+}
+.blog-image img{
+    height: auto;
+}
+/* -----------------------------------------------------
+Image hover
+----------------------------------------------------- */
+.image-hover img{
+    display: block !important; /*Chrome issue*/
+}
+.image-hover{
+	position: relative;
+	display: block;
+}
+.image-hover .extra-info {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+    background: rgba(0,0,0,0);    
+}
+.image-hover:hover .extra-info {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    background: rgba(0,0,0,0.5);
+}
+.image-hover .extra-info a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

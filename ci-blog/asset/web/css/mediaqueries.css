@@ -1,0 +1,543 @@
+/* -----------------------------------------------------
+Media queries - http://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+----------------------------------------------------- */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 1px) and (max-width : 479px) {
+	/* -----------------------------------------------------
+	Global
+	----------------------------------------------------- */
+	.container,.jcarousel-clients{
+		width: 300px;
+	}
+	.select-menu {
+        display: inline-block !important;
+        width: 300px;
+    }
+    header .logo img{
+		margin: 0 auto;
+	}
+    .menu-system ul.absolution{
+    	display: none;
+    }
+	.home-entry-meta{
+		top: 140px;
+	}
+	.entry-meta{
+		top: 125px;
+	}
+	.header-social-icons-parent,.breadcrumb{
+		float: left;
+	}	
+	#portfolio .portfolio-element{
+		margin-left: 25px;
+	}
+	.comments-div .comment-text {
+		width: 214px;
+	}
+	.comments-div .comment-inner .comment-text {
+		width: 154px;
+	}
+	.meter > span{
+		max-width: 300px;
+	}
+	/* -----------------------------------------------------
+	Image sizes
+	----------------------------------------------------- */
+	.blog-image,.blog-image img{
+		width: 300px;
+	    height: 185px;
+	}
+	div.gray-pricing-table .plan{
+		width: 100%;
+	}
+	.entry-image-blog img{
+		width: 300px;		
+	}
+	.portfolio-image{
+	    width: 250px;
+	    height: 310px;
+	}
+	.single-blog-image{
+	    width: 296px;
+	    height: 296px;
+	}
+	.team-member img{
+		width: 300px;
+	}
+	/* -----------------------------------------------------
+	Flex slider
+	----------------------------------------------------- */
+	.testimonials .flex-direction-nav a.flex-prev{
+		left: 34% !important;
+	}
+	.testimonials .flex-direction-nav a.flex-next{
+		right: 34% !important;
+	}	
+	
+	.single-portfolio-slider-widget .flex-direction-nav .flex-prev{
+		left: 35% !important;
+	}
+	.single-portfolio-slider-widget .flex-direction-nav .flex-next{
+		right: 35% !important;
+	}
+	/* -----------------------------------------------------
+	Jcarousel - Clients
+	----------------------------------------------------- */
+	.jcarousel-clients-skin, .jcarousel-clients-skin-wrapper{
+		width: 300px !important;
+	}
+	.jcarousel-clients-skin-wrapper .carousel-control-next{
+		right: 35% !important;
+	}
+	.jcarousel-clients-skin-wrapper .carousel-control-prev{
+		left: 35% !important;		
+	}
+	.client{
+		width: 300px;
+		float: none;
+	}	
+	.client > div{
+		margin-left: 67px;
+		width: 166px;
+	}
+	.jcarousel-clients,.jcarousel-clients-skin {    
+    	height: 660px;
+	}
+	/* -----------------------------------------------------
+	Jcarousel - Single portfolio
+	----------------------------------------------------- */
+	.jcarousel-single-portfolio-skin-wrapper .carousel-control-next{
+		right: 35% !important;
+	}
+	.jcarousel-single-portfolio-skin-wrapper .carousel-control-prev{
+		left: 35% !important;
+	}	
+	.jcarousel-single-portfolio, .jcarousel-single-portfolio-skin{
+		height: 1480px;
+	}
+	.carousel,.jcarousel-single-portfolio li{
+		width: 300px;
+	}
+	.jcarousel-single-portfolio .portfolio-element{
+		float: none;
+		margin-left: 25px;
+	}
+	/* -----------------------------------------------------
+	Presentation box
+	----------------------------------------------------- */
+	.presentation-box {
+		width: 100%;
+	}
+	.presentation-box:after,.presentation-box:before{
+		display: none !important;
+	}	
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 480px) and (max-width : 768px) {
+	/* -----------------------------------------------------
+	Global
+	----------------------------------------------------- */
+	.container,.jcarousel-clients{
+		width: 480px;		
+	}
+    .select-menu {
+        display: block !important;
+        width: 300px;
+    }
+    header .logo img{
+		margin: 0 auto;
+	}
+    .menu-system ul.absolution{
+    	display: none;
+    }
+	.home-entry-meta{
+		top: 255px;
+	}
+	.entry-meta{
+		top: 235px;
+	}
+	.home-image-shadow{
+		width: 480px;
+	}
+	.header-social-icons-parent,.breadcrumb{
+		float: left;
+	}
+	#portfolio .portfolio-element{
+		margin-left: 115px;
+	}
+	.comments-div .comment-text {
+		width: 394px;
+	}
+	.comments-div .comment-inner .comment-text {
+		width: 334px;
+	}
+	/* -----------------------------------------------------
+	Image sizes
+	----------------------------------------------------- */
+	.blog-image,.blog-image img{
+		width: 480px;
+	    height: 295px;
+	}
+	div.gray-pricing-table .plan{
+		width: 100%;
+	}
+	.entry-image-blog img{
+		width: 480px;		
+	}
+	.portfolio-image{
+	    width: 250px;
+	    height: 310px;
+	}
+	.single-blog-image{
+	    width: 296px;
+	    height: 296px;
+	}
+	.team-member img{
+		width: 480px;
+	}
+	/* -----------------------------------------------------
+	Flex slider
+	----------------------------------------------------- */
+	.testimonials .flex-direction-nav a.flex-prev{
+		left: 40% !important;
+	}
+	.testimonials .flex-direction-nav a.flex-next{
+		right: 40% !important;
+	}	
+	.single-portfolio-slider-widget .flex-direction-nav .flex-prev{
+		left: 40% !important;
+	}
+	.single-portfolio-slider-widget .flex-direction-nav .flex-next{
+		right: 40% !important;
+	}
+	/* -----------------------------------------------------
+	Jcarousel - Client
+	----------------------------------------------------- */
+	.jcarousel-clients-skin, .jcarousel-clients-skin-wrapper{
+		width: 480px !important;
+	}
+	.jcarousel-clients-skin-wrapper .carousel-control-next{
+		right: 40% !important;
+	}
+	.jcarousel-clients-skin-wrapper .carousel-control-prev{
+		left: 40% !important;		
+	}
+	.client{
+		width: 480px;
+		float: none;
+	}	
+	.client > div{
+		margin-left: 157px;
+		width: 166px;
+	}
+	.jcarousel-clients,.jcarousel-clients-skin {    
+    	height: 660px;
+	}	
+	/* -----------------------------------------------------
+	Jcarousel - Single portfolio
+	----------------------------------------------------- */
+	.jcarousel-single-portfolio-skin-wrapper .carousel-control-next{
+		right: 40% !important;
+	}
+	.jcarousel-single-portfolio-skin-wrapper .carousel-control-prev{
+		left: 40% !important;
+	}	
+	.jcarousel-single-portfolio, .jcarousel-single-portfolio-skin{
+		height: 1480px;
+	}
+	.carousel,.jcarousel-single-portfolio li{
+		width: 480px;
+	}
+	.jcarousel-single-portfolio .portfolio-element{
+		float: none;
+		margin-left: 115px;
+	}
+	/* -----------------------------------------------------
+	Presentation box
+	----------------------------------------------------- */
+	.presentation-box {
+		width: 100%;
+	}
+	.presentation-box:after,.presentation-box:before{
+		display: none !important;
+	}	
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 769px) and (max-width : 960px){
+	/* -----------------------------------------------------
+	Global
+	----------------------------------------------------- */
+	.container,.jcarousel-clients{
+		width: 768px;
+	}
+	.select-menu {
+        display: none;
+        width: auto;
+    }
+    .menu-system ul.absolution{
+    	display: block;
+    }
+    header .logo img{
+		margin: 0;
+	}
+	.home-entry-meta{
+		top: 50px;
+	}
+	.entry-meta{
+		top: 250px;
+	}
+	.header-social-icons-parent,.breadcrumb{
+		float: right;
+	}
+	.comments-div .comment-text {
+		width: 413px;
+	}
+	.comments-div .comment-inner .comment-text {
+		width: 353px;
+	}
+	/* -----------------------------------------------------
+	Image sizes
+	----------------------------------------------------- */
+	.blog-image,.blog-image img{
+		width: 500px;
+	    height: 308px;
+	}
+	.home-blog-image{
+	    width: 213px;
+	    height: 131px;
+	}
+	.single-blog-image{
+	    width: 296px;
+	    height: 296px;
+	}
+	.portfolio-image{
+	    width: 250px;
+	    height: 310px;
+	}
+	div.gray-pricing-table .plan{
+		width: 25%;
+	}
+	.entry-image-blog img{
+		width: 100%;		
+	}
+	.portfolio-image{
+	    width: 250px;
+	    height: 310px;
+	}
+	.team-member img{
+		width: 219px;
+	}
+	/* -----------------------------------------------------
+	Flex slider
+	----------------------------------------------------- */
+	.testimonials .flex-direction-nav a.flex-prev{
+		left: 37% !important;
+	}
+	.testimonials .flex-direction-nav a.flex-next{
+		right: 37% !important;
+	}
+	.single-portfolio-slider-widget .flex-direction-nav .flex-prev{
+		left: 30% !important;
+	}
+	.single-portfolio-slider-widget .flex-direction-nav .flex-next{
+		right: 30% !important;
+	}
+	.services-testimonials .flex-direction-nav a.flex-prev{
+		left: 28% !important;
+	}
+	.services-testimonials .flex-direction-nav a.flex-next{
+		right: 28% !important;
+	}
+	/* -----------------------------------------------------
+	Jcarousel - Client
+	----------------------------------------------------- */
+	.jcarousel-clients-skin, .jcarousel-clients-skin-wrapper{
+		width: 786px !important;
+	}
+	.jcarousel-clients-skin .carousel-control-next,.jcarousel-clients-skin .carousel-control-prev{
+		top: 160px;	
+	}
+	.jcarousel-clients-skin-wrapper .carousel-control-next{
+		right: 44% !important;
+	}
+	.jcarousel-clients-skin-wrapper .carousel-control-prev{
+		left: 44% !important;		
+	}
+	.client{
+		width: 157.2px;
+		float: left;
+	}	
+	.client > div{
+		margin-left: 16.5px;
+		width: 124.2px;
+	}
+	.jcarousel-clients,.jcarousel-clients-skin {    
+    	height: 132px;
+	}
+	/* -----------------------------------------------------
+	Jcarousel - Single portfolio
+	----------------------------------------------------- */
+	.jcarousel-single-portfolio-skin-wrapper .carousel-control-next{
+		right: 44% !important;
+	}
+	.jcarousel-single-portfolio-skin-wrapper .carousel-control-prev{
+		left: 44% !important;
+	}	
+	.jcarousel-single-portfolio, .jcarousel-single-portfolio-skin{
+		height: 1480px;
+	}
+	.carousel,.jcarousel-single-portfolio li{
+		width: 768px;
+	}
+	.jcarousel-single-portfolio .portfolio-element{
+		float: none;
+		margin-left: 259px;
+	}
+	/* -----------------------------------------------------
+	Presentation box
+	----------------------------------------------------- */
+	.presentation-box {
+		width: 50%;
+	}
+	.presentation-box:after,.presentation-box:before{
+		display: none !important;
+	}	
+}
+/* Large screens ----------- */
+@media only screen and (min-width : 961px) {
+	/* -----------------------------------------------------
+	Global
+	----------------------------------------------------- */
+	.container,.jcarousel-clients{
+		width: 1000px;
+	}
+	.select-menu {
+        display: none;
+        width: auto;
+    }
+    .menu-system ul.absolution{
+    	display: block;
+    	float: right;
+    }
+    header .logo img{
+		margin: 0;
+	}
+	.home-entry-meta{
+		top: 80px;
+	}
+	.entry-meta{
+		top: 343px;
+	}
+	.header-social-icons-parent,.breadcrumb{
+		float: right;
+	}
+	.comments-div .comment-text {
+		width: 564px;
+	}
+	.comments-div .comment-inner .comment-text {
+		width: 504px;
+	}
+	/* -----------------------------------------------------
+	Image sizes
+	----------------------------------------------------- */
+	.blog-image,.blog-image img{
+		width: 650px;
+	    height: 400px;
+	}
+	.home-blog-image{
+	    width: 213px;
+	    height: 131px;
+	}
+	.single-blog-image{
+	    width: 296px;
+	    height: 296px;
+	}
+	.portfolio-image{
+	    width: 250px;
+	    height: 310px;
+	}
+	div.gray-pricing-table .plan{
+		width: 25%;
+	}
+	.entry-image-blog img{
+		width: 213px;		
+	}
+	.team-member img{
+		width: 219px;
+	}
+	/* -----------------------------------------------------
+	Flex slider
+	----------------------------------------------------- */
+	.testimonials .flex-direction-nav a.flex-prev,
+	.single-portfolio-slider .flex-direction-nav a.flex-prev{
+		left: 40%;
+	}
+	.testimonials .flex-direction-nav a.flex-next,
+	.single-portfolio-slider .flex-direction-nav a.flex-next{
+		right: 40%;
+	}
+	.single-portfolio-slider-widget .flex-direction-nav .flex-prev{
+		left: 35% !important;
+	}
+	.single-portfolio-slider-widget .flex-direction-nav .flex-next{
+		right: 35% !important;
+	}
+	.services-testimonials .flex-direction-nav a.flex-prev{
+		left: 34% !important;
+	}
+	.services-testimonials .flex-direction-nav a.flex-next{
+		right: 34% !important;
+	}
+	/* -----------------------------------------------------
+	Jcarousel - Client
+	----------------------------------------------------- */
+	.jcarousel-clients-skin, .jcarousel-clients-skin-wrapper{
+		width: 1000px !important;
+	}
+	.jcarousel-clients-skin-wrapper .carousel-control-next{
+		right: 45% !important;
+	}
+	.jcarousel-clients-skin-wrapper .carousel-control-prev{
+		left: 45% !important;		
+	}		
+	.client{
+		width: 200px;
+		float: left;
+	}	
+	.client > div{
+		margin-left: 16.5px;
+		width: 166px;
+	}
+	.jcarousel-clients,.jcarousel-clients-skin {    
+    	height: 132px;
+	}
+	/* -----------------------------------------------------
+	Jcarousel - Single portfolio
+	----------------------------------------------------- */
+	.jcarousel-single-portfolio-skin-wrapper .carousel-control-next{
+		right: 45% !important;
+	}
+	.jcarousel-single-portfolio-skin-wrapper .carousel-control-prev{
+		left: 45% !important;
+	}	
+	.jcarousel-single-portfolio, .jcarousel-single-portfolio-skin{
+		height: 400px;
+	}
+	.carousel{
+		width: 1000px;
+	}
+	.jcarousel-single-portfolio .portfolio-element{
+		float: left;
+	}
+	/* -----------------------------------------------------
+	Presentation box
+	----------------------------------------------------- */
+	.presentation-box {
+		width: 25%;
+	}
+	.presentation-box:after,.presentation-box:before{
+		display: block !important;
+	}	
+}

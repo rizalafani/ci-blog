@@ -1,0 +1,202 @@
+/* -----------------------------------------------------
+Global
+----------------------------------------------------- */
+.menu-system {
+  clear:both;
+  float:right;
+  z-index:1009;
+}
+.menu-system a {
+  display:block;
+  padding:24px 30px;
+  text-align:center;
+  text-decoration:none;
+  color: black;
+  font-size: 13px;
+  transition: color 400ms;
+  -moz-transition: color 400ms;
+  -webkit-transition: color 400ms;
+  -o-transition: color 400ms;
+  z-index:1009;
+}
+/* -----------------------------------------------------
+First-Level
+----------------------------------------------------- */
+.menu-system ul {
+  list-style-type:none;
+  margin:0 auto;
+  padding:0;
+}
+.menu-system ul li {
+  float:left;
+  font-size:13px;
+  font-weight:bold;
+  padding:0;
+  position:relative;
+}
+.menu-system ul li + li {
+  margin:0;
+}
+.menu-system ul li a span.icon {
+  display:block;
+  font-weight:normal;
+  margin-bottom:4px;
+}
+.menu-system ul li a:hover span.icon {
+
+}
+/* -----------------------------------------------------
+Second-Level
+----------------------------------------------------- */
+.menu-system ul li:hover > ul {
+  opacity: 1;
+  visibility: visible;
+}
+.menu-system ul ul { 
+  opacity: 0;
+  -moz-transition: opacity 20ms linear 100ms, visibility 100ms linear 100ms;
+  -webkit-transition: opacity 20ms linear 100ms, visibility 100ms linear 100ms;
+  -o-transition: opacity 20ms linear 100ms, visibility 100ms linear 100ms;
+  transition: opacity 20ms linear 100ms, visibility 100ms linear 100ms;
+  visibility: hidden;
+  
+  float:left;
+  left:0;
+  position:absolute;
+  z-index:1009;
+  background-color: #ffffff;
+}
+.menu-system ul ul a {
+  border:0;
+  font-size:12px;
+  font-weight:normal;
+  padding:14px 12px;
+  text-align:left;
+}
+.menu-system ul ul li {
+  min-width:220px;
+}
+.menu-system ul ul li + li {
+  margin:0;
+}
+/* -----------------------------------------------------
+Third-Level
+----------------------------------------------------- */
+.menu-system ul ul ul {
+  left:100%;
+  top:0;
+}
+.menu-system ul ul ul :hover > a {
+
+}
+.menu-system ul ul ul a {
+  font-weight:normal;
+  height:auto;
+  padding:8px 12px;
+  text-align:left;
+}
+.menu-system ul ul ul li {
+  min-width:220px;
+}
+/* -----------------------------------------------------
+Absolution theme
+----------------------------------------------------- */
+.absolution{
+  position: relative;
+}
+.absolution ul{
+  box-shadow: 0px 2px 1px #d6d5d3;
+  border-radius: 2px;
+  border-top: 7px #89bf42 solid;
+  margin-top: 8px;
+}
+.absolution ul ul{
+  margin-top: 0;
+  border: none;
+}
+.absolution ul ul:before{
+  background: none;
+}
+.absolution ul:before{
+  content: " ";
+  position: absolute;
+  top: -13px;
+  left: 15%;
+  z-index: 1009;
+  width: 16px;
+  height: 8px;
+  background-image: url('images/small_content_dropdown_arrow.png'); 
+}
+.absolution li a{
+  color: #989898; 
+}
+.absolution ul li {
+  padding: 0 8px !important;
+}
+.absolution li {
+  background:#f2f2f2;
+  display: block !important;
+}
+.menu-system > ul li:hover > a{
+  color: #89bf42;
+}   
+.absolution ul li a{
+  border-bottom: 1px #e0e0e0 solid !important;
+}
+.absolution ul li:last-child a{
+  border: 0 !important;
+}
+
+.menu-system > ul > li{
+  border-right: 1px #cecece solid;
+}
+.menu-system > ul > li:first-child{
+  border-left: 1px #cecece solid;
+}
+/* -----------------------------------------------------
+Menu icons
+----------------------------------------------------- */
+.menu-system .icon .menu-icon{
+  margin: 0 auto;
+}
+.menu-icon,.menu-system .icon{
+  width: auto;
+  height: 33px;
+  transition: background 400ms;
+  -moz-transition: background 400ms;
+  -webkit-transition: background 400ms;
+  -o-transition: background 400ms;
+  z-index: 1100;
+  display: block;
+}
+.menu-icon-home{
+  background: url('images/menu/small_content_home.png') no-repeat 50% 50%; 
+}
+.menu-system > ul li:hover .menu-icon-home{
+  background: url('images/menu/small_content_home_hovered.png') no-repeat 50% 50%;    
+}
+.menu-icon-blog{
+  background: url('images/menu/small_content_blog.png') no-repeat 50% 50%; 
+}
+.menu-system > ul li:hover .menu-icon-blog{
+  background: url('images/menu/small_content_blog_hovered.png') no-repeat 50% 50%;    
+}
+.menu-icon-pages{
+  background: url('images/menu/small_content_pages.png') no-repeat 50% 50%; 
+}
+.menu-system > ul li:hover .menu-icon-pages{
+  background: url('images/menu/small_content_pages_hovered.png') no-repeat 50% 50%;    
+}
+.menu-icon-portfolio{
+  background: url('images/menu/small_content_portfolio.png') no-repeat 50% 50%; 
+}
+.menu-system > ul li:hover .menu-icon-portfolio{
+  background: url('images/menu/small_content_portfolio_hovered.png') no-repeat 50% 50%;    
+}
+.menu-icon-contact{
+  background: url('images/menu/small_content_contact.png') no-repeat 50% 50%; 
+}
+.menu-system > ul li:hover .menu-icon-contact{
+  background: url('images/menu/small_content_contact_hovered.png') no-repeat 50% 50%;    
+}
+

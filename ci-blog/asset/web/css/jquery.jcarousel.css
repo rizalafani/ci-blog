@@ -1,0 +1,69 @@
+.carousel-wrapper {    
+    position: relative;
+    width: auto;
+}
+
+/** Carousel **/
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+}
+
+.carousel ul {
+    width: 20000em;
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel li {
+    float: left;
+}
+
+/** Carousel Controls **/
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    bottom: -64px;
+    width: 41px;
+    height: 43px;
+    text-align: center;
+    background: #4E443C;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: background 400ms;
+    -moz-transition: background 400ms; 
+    -webkit-transition: background 400ms;
+    -o-transition: background 400ms;
+    background-position: 100% 0 ,0 100%;
+    z-index: 1100;
+}
+
+.carousel-control-prev {
+    background: url('images/medium_content_button_left_sprite.png') no-repeat 0 0,url('images/small_content_button_left_shadow.png') no-repeat 0 100%;
+    left: 0;
+}
+
+.carousel-control-next {
+    background: url(images/medium_content_button_right_sprite.png) no-repeat 0 0,url(images/small_content_button_right_shadow.png) no-repeat 0 100%;  
+    right: 0;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-position: 100% 0 ,0 100%;
+}
+.jcarousel-clients-skin-wrapper{
+    margin-bottom: 64px;
+}
+.jcarousel-single-portfolio-skin-wrapper{
+    padding-bottom: 16px;
+}
+.jcarousel-single-portfolio-skin-wrapper .carousel-control-next,.jcarousel-single-portfolio-skin-wrapper .carousel-control-prev{
+    bottom: 0;
+}

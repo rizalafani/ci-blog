@@ -1,0 +1,622 @@
+/* -----------------------------------------------------
+
+Body 32-41
+Head 42-111
+	Header top
+	Logo
+	Breadcrumb
+	Mobilmenu
+
+Blog 112-392
+	Home entry
+	Entry
+	Entry blog image
+	Entry hover
+	Entry shadows
+	Entry image
+	Entry meta
+	Entry text
+	Comments
+	Pager
+
+Footer 393-439
+	Flickr
+	Footer global	
+Contact 440-493
+Portfolio 494-556
+Single portfolio 558-599
+Back to top 600-622
+
+----------------------------------------------------- */
+
+/* -----------------------------------------------------
+Body
+----------------------------------------------------- */
+body,html{
+	height: 100%;	
+
+}
+body{
+	background-color: #ffffff;
+}
+/* -----------------------------------------------------
+Head
+----------------------------------------------------- */
+header{
+	background-color: #f2f2f2;
+}
+/************** Header top **************/
+.header-top{
+	padding: 16px 0;
+	background-color: #89bf42 !important;
+}
+.header-social-icons a:first-child div{
+	margin: 0;
+}
+header .phone-top,.mail-top{
+	padding: 8px 0 8px 32px;
+	font-weight: 700;
+}
+header .phone-top{
+	background: url('images/small_header_telephone.png') no-repeat 0 50%;
+}
+header .mail-top{
+	background: url('images/small_header_mail.png') no-repeat 0 50%;
+}
+/************** Logo **************/
+header .logo{
+	margin-top: 40px;
+	margin-bottom: 25px;
+}
+header .logo img{
+	display: block;
+}
+/************** Breadcrumb **************/
+.breadcrumb li{
+	margin-right: 0;
+}
+.breadcrumb li:after{
+	content: " /";
+}
+.breadcrumb li:last-child:after{
+	content: "";
+}
+.breadcrumb{
+	margin: 0;
+}
+.breadcrumb a{
+	color: #989898;
+	transition: color 400ms;
+    -moz-transition: color 400ms;
+    -webkit-transition: color 400ms;
+    -o-transition: color 400ms;
+}
+.breadcrumb a:hover{
+	color: #89bf42;
+}
+/************** Mobilmenu **************/
+.header-container .select-menu {    
+    background: none repeat scroll 0 0 #F6F6F6;
+    border: 1px solid #CCCCCC;
+    color: #666666;
+    font-size: 12px;
+    line-height: 21px;
+    margin: 0 auto;
+    padding: 5px;
+    height: auto;  
+    margin-bottom: 25px;  
+}
+.menu-system{
+	width: 100%;
+}
+/* -----------------------------------------------------
+Blog
+----------------------------------------------------- */
+/************** Home entry **************/
+.home-entry h3{
+	font-size: 14px;
+}
+/************** Entry **************/
+.entry{
+	margin-bottom: 18px;
+	position: relative;
+	background: url('images/small_content_blog_post_divider.png') repeat-y 18px 0;
+}
+.single-entry{
+	margin-bottom: 50px;
+}
+.entry:after{
+	content: "";
+	position: absolute;
+	display: block;
+	background: url('images/small_content_blog_circle.png') no-repeat;
+	width: 15px;
+	height: 15px;
+	z-index: 1000;
+	bottom: -10px;
+	left: 11px;
+}
+/************** Entry blog image **************/	
+.entry-image-blog img{
+	border-radius: 3px !important;
+	height: auto;
+}
+/************** Entry hover **************/
+.entry-img-hover-loupe,.entry-img-hover-link{
+	display: block;
+	width: 48px;
+	height: 46px;
+	transition: background 400ms;
+    -moz-transition: background 400ms;
+    -webkit-transition: background 400ms;
+    -o-transition: background 400ms;
+}	
+.entry-img-hover-loupe{
+	background: url('images/small_content_zoom_normal.png') no-repeat;
+    margin-left:-24px;
+    margin-top:-23px;
+}
+.portfolio-image .entry-img-hover-loupe{
+	margin-left:-48px;	
+}
+.entry-img-hover-loupe:hover{
+	background: url('images/small_content_zoom_hovered.png') no-repeat;
+}
+.entry-img-hover-link{
+	background: url('images/small_content_portfolio_link_normal.png') no-repeat;
+	margin-left: 2px;
+    margin-top:-23px;
+}
+.entry-img-hover-link:hover{
+	background: url('images/small_content_portfolio_link_hovered.png') no-repeat;
+}
+.single-portfolio-slider-widget .entry-img-hover-loupe{
+	margin-left: -48px !important;
+}
+/************** Entry shadows **************/
+.image-shadow{
+	background: url('images/large_content_entry_shadow.png') no-repeat;
+	background-size: 100%;
+	height: 15px;
+	width: 100%;
+}
+.home-image-shadow{
+	background: url('images/small_home_content_entry_shadow.png') no-repeat;
+	background-size: 100%;
+	height: 4px;
+	width: 100%;	
+}
+/************** Entry image **************/
+.entry-image{
+	margin-bottom: 15px;
+}
+/************** Entry meta **************/
+.home-entry-meta{
+	position: absolute;
+	top: 80px;
+	left: -20px;
+	z-index: 1000;
+}
+.entry-meta{
+	position: absolute;
+	top: 343px;
+	left: -20px;
+	z-index: 1000;
+}
+.meta-date,.meta-ico{
+	float: left;
+}
+.meta-date{
+	background: url('images/medium_content_date_base.png') no-repeat;
+	width: 77px;
+	height: 77px;		
+}
+.meta-date p{
+	margin: 0;
+	color: #ffffff;
+	text-align: center;
+	line-height: 1.2em;
+}
+.meta-date p:first-of-type{
+	padding-top: 18px;
+	font-size: 15px;
+	font-weight: 700;
+}
+.meta-date p:first-child{
+	font-weight: 700;
+	font-size: 20px;
+}
+.meta-ico{
+	background: url('images/medium_content_type_base.png') no-repeat;
+	width: 88px;
+	height: 77px;
+	position: relative;
+	left: -22px;
+}
+/************** Entry text **************/
+.entry-text{
+	padding-left: 40px;
+}
+
+.entry-text-ul li{
+	margin-right: 8px;
+	position: relative;
+}
+.entry-text-ul li li{
+	margin: 0px;
+}
+.entry-text-ul li a{
+	transition: color 400ms;
+    -moz-transition: color 400ms;
+    -webkit-transition: color 400ms;
+    -o-transition: color 400ms;
+    color: #989898;
+}
+.entry-text-ul li a:hover{
+	color: #89bf42;
+}
+.entry-text-ul > li:after{
+	position: absolute;
+	color: #989898;
+	content: "•";
+	font-size: 12px;
+	right: -9px;
+	top: 1px;	
+}
+.entry-text-ul li:last-child:after{
+	content: "";
+}
+.read-more{
+	font-weight: 700; 
+	transition: all 400ms !important;
+    -moz-transition: all 400ms !important;
+    -webkit-transition: all 400ms !important;
+    -o-transition: all 400ms !important;
+	padding-right: 10px;
+	background: url('images/small_content_read_more_arrow_normal.png') no-repeat 100% 55%;	
+}
+.read-more:hover{
+	background: url('images/small_content_read_more_arrow_hovered.png') no-repeat 100% 55%;	
+}
+/************** Comments **************/
+.comments-div .comment-text {
+	margin-bottom: 25px;
+}
+.comments-div .comment-avatar {
+    display: block;
+    margin-right: 16px;
+    width: 70px;
+    height: 72px;
+}
+.comment-box-inline{
+	position: relative;
+}
+.reply-box{
+
+}
+.comments-div .comment-text, .comments-div .comment-avatar {
+    float: left;
+}
+.comments-div .comment-inner {
+    padding-left: 60px;
+}
+.comment-border {
+    border-bottom: 1px #e5e5e5 solid;
+    margin-bottom: 20px;
+}
+.comment-reply{
+	background: url("images/small_content_reply_arrow.png") no-repeat 10% 50%,url("images/medium_shortcode_green_normal.png") no-repeat;
+	background-size:auto auto,100% 100%;
+	margin-bottom: 8px;
+    color: #ffffff;
+    padding: 0 30px 1px 40px;
+    height: 32px;
+    font-size: 12px;
+    display: table-cell;
+    transition: all 400ms;
+    -moz-transition: all 400ms;
+    -webkit-transition: all 400ms;
+    -o-transition: all 400ms;
+    text-align: right;
+    vertical-align: middle;
+    font-weight: 700;
+}
+.comment-reply:hover{
+	background: url("images/small_content_reply_arrow_hover.png") no-repeat 10% 50%,url("images/medium_shortcode_light_grey_normal.png") no-repeat;
+	background-size:auto auto,100% 100%;
+	color: #323232;
+}
+/************** Pager **************/
+.pager{
+	border: 1px #d5d4d4 solid;
+	border-radius: 3px;
+	display: block;
+	padding: 1px;
+	width: 250px;	
+	background-color: #f2f2f2;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.pager ul{	
+	display: block;
+	width: 80%;
+	float: left;
+	text-align: center;
+	border-left: 1px #d5d4d4 solid;
+	border-right: 1px #d5d4d4 solid;
+}
+.pager ul li{
+	display: inline-table;
+}
+.pager ul li a{
+	color: #9d9d9d;
+	transition: border 400ms;
+    -moz-transition: border 400ms;
+    -webkit-transition: border 400ms;
+    -o-transition: border 400ms;
+    padding: 8px 0;
+    margin: 0 8px;
+    display: block;
+    border-bottom: 5px #f2f2f2 solid;
+    border-top: 5px #f2f2f2 solid;
+    position: relative;
+    font-weight: 700;     
+}
+.pager ul li a:hover{
+	color: #89bf42;
+	border-bottom: 5px #89bf42 solid;
+}
+.pager .back-pager,.pager .next-pager{
+	width: 15px;
+	height: 15px;
+	display: block;
+	width: 10%;
+	float: left;
+	transition: background 400ms;
+    -moz-transition: background 400ms;
+    -webkit-transition: background 400ms;
+    -o-transition: background 400ms;
+    margin-top: 13px;
+}
+.pager .back-pager{
+	background: url('images/small_content_portfolio_pagination_arrow_left_normal.png') no-repeat 50% 50%;	
+}
+.pager .next-pager{	
+	background: url('images/small_content_portfolio_pagination_arrow_right_normal.png') no-repeat 50% 50%;	
+}
+.pager .back-pager:hover{
+	background: url('images/small_content_portfolio_pagination_arrow_left_hovered.png') no-repeat 50% 50%;	
+}
+.pager .next-pager:hover{	
+	background: url('images/small_content_portfolio_pagination_arrow_right_hovered.png') no-repeat 50% 50%;	
+}
+/* -----------------------------------------------------
+Footer
+----------------------------------------------------- */
+/************** Footer global **************/
+.footer-container:before{
+	background: url('images/small_content_title_circle.png');
+	width: 15px;
+	height: 15px;
+	content: " ";
+	position: absolute;
+	left: 50%;
+	top: -8px;
+	z-index: 1001;	
+}
+.footer-container{
+	background-color: #f2f2f2;
+	border-top: 1px #cecece solid;		
+	position: relative;
+	/*margin-top: 18px;*/
+}
+.footer-container > div.container{
+	padding: 32px 0;
+}
+.copyright-container{
+	background-color: #89bf42;
+	padding: 16px 0;	
+}
+.copyright-container p{
+	margin-bottom: 0;
+}
+/************** Flickr **************/
+.flickr .flickr-items{
+	float: left;
+	margin-right: 8px;
+}
+.flickr .flickr-items img{
+	transition: all 400ms;
+    -moz-transition: all 400ms;
+    -webkit-transition: all 400ms;
+    -o-transition: all 400ms;
+	border-radius: 38px;
+	width: 62px;
+	height: 62px;
+}
+.flickr .flickr-items img:hover{
+	border-radius: 3px;
+}
+/* -----------------------------------------------------
+Contact
+----------------------------------------------------- */
+#map {
+    min-height: 500px;
+    margin-bottom: 50px;
+	box-shadow:inset 0 0 10px #000000;
+}
+label {
+    width: 100%;
+    display: block;
+    margin-bottom: 8px;
+}
+input.default-input, textarea.default-input {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+    width: 100%;
+    border: 1px #bfbfbf solid;
+    background-color: #f6f6f6;
+    padding: 8px;
+    display: block;
+}
+textarea.default-input {
+    resize: none;    
+    border-radius: 4px;
+}
+input.name,input.email,input.website{
+	height: 45px;
+	padding-left: 60px;
+}
+input.name{
+    background: url('images/small_content_name_icon.png') no-repeat;	
+}
+input.email{
+    background: url('images/small_content_email_icon.png') no-repeat;	
+}
+input.website{
+    background: url('images/small_content_website_icon.png') no-repeat;	
+}
+textarea.pen{
+	height: 192px;
+    padding-left: 60px;
+    background: url('images/medium_content_your_message_icon.png') no-repeat;	
+}
+input.name,input.email,input.website,textarea.pen{
+	background-color: #f2f2f2;
+	color: #919191;
+	border-radius: 3px;
+}
+.contact-green{
+	color: #89bf42;
+	font-size: 18px;
+}
+/* -----------------------------------------------------
+Portfolio
+----------------------------------------------------- */
+.options{
+	left: 25%;
+	position: relative;
+}
+.option-set{
+  width: 50%;  
+  padding: 4px;
+  background-color: #f2f2f2;
+  border: 1px solid #d5d4d4;
+  text-align: center;
+  border-radius: 3px;
+  margin-bottom: 50px;
+}
+.option-set li{
+	margin: 0;
+	padding-right: 8px;
+	
+}
+.option-set li a{
+	color: #9d9d9d;
+	font-size: 12px;
+	font-weight: 700;
+	transition: color 400ms;
+    -moz-transition: color 400ms;
+    -webkit-transition: color 400ms;
+    -o-transition: color 400ms;	
+}
+.option-set li:after{
+	color: #9d9d9d;
+	content: "/";
+	padding-left: 12px;
+}
+.option-set li:last-child{
+	padding: 0;
+}
+.option-set li:first-child{
+	padding-left: 12px;
+}
+.option-set li:last-child:after{
+	content: "";
+}
+.option-set li:hover a{
+	color: #89bf42;
+}
+.portfolio-info{
+    background: url('images/medium_content_text_box.png') no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    position: relative;
+    top: -33px;
+    width: 50%;
+    left: 25%;
+    padding: 8px;
+    z-index: 1003;
+}
+.portfolio-info p{
+  margin: 0;
+}
+.portfolio-info p,.portfolio-info span,.portfolio-info{
+  color: #ffffff;
+}
+/* -----------------------------------------------------
+Single portfolio
+----------------------------------------------------- */
+.single-portfolio-info{
+    min-height: 400px;
+    display: block;
+}
+.single-portfolio-list{
+	padding: 8px;
+}
+.single-portfolio-list li{
+
+}
+.single-portfolio-list p{
+	padding: 8px 0;
+	border-radius: 3px;
+	width: 235px;	
+}
+.single-portfolio-list div{
+	margin-right: 10px;	
+}
+.single-portfolio-list p,.single-portfolio-list div{
+	float: left;
+}	
+.single-portfolio-info .title-medium{
+	margin-bottom: 0 !important;
+}
+.single-portfolio-info h3{
+	padding: 8px !important;
+	float: left;
+}
+.single-portfolio-info ul ul li{
+	border-bottom: 1px #cacaca dashed;
+	padding: 8px 0;
+}
+.single-portfolio-info ul ul ul li{
+	border: 0;
+	padding: 0;
+}
+.single-portfolio-info ul ul li span:first-child{
+	padding-right: 4px;
+}
+/* -----------------------------------------------------
+Back to top
+----------------------------------------------------- */
+
+.to-top {
+    transition: background 400ms;
+    -moz-transition: background 400ms;
+    -webkit-transition: background 400ms;
+    -o-transition: background 400ms;
+    width: 48px;
+    height: 47px;
+    background: url("images/small_content_back_to_top_sprite.png");
+    background-color: #ffffff;
+    position: fixed; /* this is the magic */
+    bottom: 50px; /* together with this to put the div at the bottom*/
+    right: 50px;
+    cursor: pointer;
+    display: none;
+}
+
+.to-top:hover {
+    background-position: 0 -47px;
+}

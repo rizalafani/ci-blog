@@ -7,6 +7,11 @@ class Webadmin extends CI_Controller {
 	http://calonpresident.blogspot.com
 	file : webadmin.php untuk aplikasi content management system blog
 	*/
+	public function __construct()
+	{
+		parent::__construct();
+	}
+	
 	function index(){
 		$this->cek_session();
 		$data = array(
